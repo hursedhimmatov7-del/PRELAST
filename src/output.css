@@ -296,6 +296,9 @@
   .justify-start {
     justify-content: flex-start;
   }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -719,6 +722,16 @@
       width: 40%;
     }
   }
+  .lg\:w-\[45\%\] {
+    @media (width >= 64rem) {
+      width: 45%;
+    }
+  }
+  .lg\:w-\[47\%\] {
+    @media (width >= 64rem) {
+      width: 47%;
+    }
+  }
   .lg\:w-\[48\%\] {
     @media (width >= 64rem) {
       width: 48%;
@@ -757,6 +770,11 @@
   .lg\:w-\[88\%\] {
     @media (width >= 64rem) {
       width: 88%;
+    }
+  }
+  .lg\:w-\[485\] {
+    @media (width >= 64rem) {
+      width: 485;
     }
   }
   .lg\:max-w-340 {
